@@ -1,5 +1,6 @@
+import Head from "../components/head";
 
-import Head from '../head';
+
 
 function App() {
   return (

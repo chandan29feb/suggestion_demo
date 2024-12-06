@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import { toggleMenu } from "../utils/appSlice";
 import { useDispatch, useSelector } from "react-redux";
 
-// import {user, youtube_icon, hamburger_menu} from '../utils/contants';
-// import { cacheResults } from "../utils/searchSlice";
-// import { YOUTUBE_SUGGESTION_API } from "../utils/constants";
+import {user, youtube_icon, hamburger_menu} from '../utils/contants';
+import { cacheResults } from "../utils/searchSlice";
+import { YOUTUBE_SUGGESTION_API } from "../utils/constants";
 
 const Head = () => {
   const dispatch = useDispatch();
